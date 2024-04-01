@@ -2,7 +2,7 @@
 FROM node:21-slim as fe-build
 
 ENV NODE_ENV=production
-ENV VITE_API_URL=localhost:3000
+ENV VITE_API_URL=10.2.0.14:3080
 
 WORKDIR /frontend
 
